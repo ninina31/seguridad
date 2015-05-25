@@ -1,0 +1,7 @@
+agenda_contacto:
+    resource: "@AgendaBundle/Resources/config/routing/contacto.yml"
+    prefix:   /
+
+agenda_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AgendaBundle:Default:index }
